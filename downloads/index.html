@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>True Mouse</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <style>
     *{
@@ -93,6 +94,10 @@
     .link:hover{
         color: rgb(218, 118, 118)
     }
+    .downloadButton{
+        width: 200px;
+    }
+
     footer{
         width: 100%;
         height: 100px;
@@ -100,7 +105,7 @@
     }
     footer .link{
         margin: auto;
-    }
+    }   
 
     @media only screen and (max-width: 800px) {
         .content_wrapper div{
@@ -126,7 +131,7 @@
     <nav>
         <ul>
             <li>
-                <img src="logo.png" width="50px" height="50px" style="border-radius: 10px;">
+                <img src="/logo.png" width="50px" height="50px" style="border-radius: 10px;">
             </li>
             <li style="transform: translateY(-15px);">
                 <div style="width: 100px;"></div>
@@ -144,22 +149,14 @@
             <br><br><br><br>
             <h1>True Mouse</h1>
             <br><br>
-            <h3>PC REMOTE<br>CONTROL</h2>
+            <h3>DOWNLOADS</h2>
         </div>
         <br><br><br><br><br>
         <div class="content_wrapper">
-            <div>
-                <img src="app01.jpeg" width="30%">
-                <!--div class="space"></div-->
-                <p> <br>
-                   True Mouse is an Android and iOS application that allows you to use your smartphone as a wireless mouse and keyboard for your computer. This app is ideal for those who want to have comfortable and easy computer control from a distance, without the need for a physical mouse and keyboard. With the mouse and keyboard, you can control your computer from any part of the room, all you need is your smartphone and a stable WiFi network. Download the free True Mouse app today and experience the convenience and simplicity of using your computer!
-                </p>
-            </div>
-        </div>
-        <div class="content_wrapper">
             <br><br>
             <div width="100%" style="display: flex;">
-                <button onclick="location.href='./downloads'">Download now</button>
+                <button class="downloadButton"><i class="fa fa-apple"></i>&nbsp; Mac OS</button>
+                <button class="downloadButton"><i class="fa fa-windows"></i> &nbsp; Windows</button>
             </div>
         </div>
        <br><br><br><br><br><br>
